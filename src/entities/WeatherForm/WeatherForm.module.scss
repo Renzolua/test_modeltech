@@ -1,0 +1,29 @@
+.formDemo {
+  min-height: 300px;
+  .card {
+    min-width: 450px;
+    .form {
+      margin-top: 2rem;
+    }
+    .field {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+.label{
+  padding-top: 12px;
+}
+
+@media screen and (max-width: 960px) {
+  .form-demo .card {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .form-demo .card {
+    width: 100%;
+    min-width: 0;
+  }
+}
